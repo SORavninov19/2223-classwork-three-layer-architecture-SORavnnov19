@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>_2223_Classwork_Three_layer_architecture</RootNamespace>
+    <RootNamespace>_2223_Classwork_Three_layer_architecture.DAL.Models</RootNamespace>
   </PropertyGroup>
 
 </Project>

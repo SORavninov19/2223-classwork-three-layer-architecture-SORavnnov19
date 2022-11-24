@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_2223_Classwork_Three_layer_architecture.BLL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\2223-Classwork-Three-layer-architecture.DAL\2223-Classwork-Three-layer-architecture.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

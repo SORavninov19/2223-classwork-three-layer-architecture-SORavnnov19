@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2223-Classwork-Three-layer-architecture", "2223-Classwork-Three-layer-architecture\2223-Classwork-Three-layer-architecture.csproj", "{5091CB18-8FAE-401E-B76C-6F11CC1F9843}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2223-Classwork-Three-layer-architecture.PL", "2223-Classwork-Three-layer-architecture\2223-Classwork-Three-layer-architecture.PL.csproj", "{5091CB18-8FAE-401E-B76C-6F11CC1F9843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2223-Classwork-Three-layer-architecture.BLL", "2223-Classwork-Three-layer-architecture.BLL\2223-Classwork-Three-layer-architecture.BLL.csproj", "{ECFF0197-7ED7-4C96-85A6-83AEC7B778F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2223-Classwork-Three-layer-architecture.DAL", "2223-Classwork-Three-layer-architecture.DAL\2223-Classwork-Three-layer-architecture.DAL.csproj", "{F06D812C-991B-48CD-904D-D8F92C5C3E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2223-Classwork-Three-layer-architecture.Models", "2223-Classwork-Three-layer-architecture.DAL.Models\2223-Classwork-Three-layer-architecture.Models.csproj", "{916B3F4B-ABA0-440A-AC5E-3571363D0F4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{5091CB18-8FAE-401E-B76C-6F11CC1F9843}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5091CB18-8FAE-401E-B76C-6F11CC1F9843}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5091CB18-8FAE-401E-B76C-6F11CC1F9843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECFF0197-7ED7-4C96-85A6-83AEC7B778F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFF0197-7ED7-4C96-85A6-83AEC7B778F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFF0197-7ED7-4C96-85A6-83AEC7B778F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFF0197-7ED7-4C96-85A6-83AEC7B778F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06D812C-991B-48CD-904D-D8F92C5C3E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06D812C-991B-48CD-904D-D8F92C5C3E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06D812C-991B-48CD-904D-D8F92C5C3E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06D812C-991B-48CD-904D-D8F92C5C3E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916B3F4B-ABA0-440A-AC5E-3571363D0F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916B3F4B-ABA0-440A-AC5E-3571363D0F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916B3F4B-ABA0-440A-AC5E-3571363D0F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916B3F4B-ABA0-440A-AC5E-3571363D0F4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
