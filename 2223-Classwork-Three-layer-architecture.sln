@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2223-Classwork-Three-layer-architecture", "2223-Classwork-Three-layer-architecture\2223-Classwork-Three-layer-architecture.csproj", "{5091CB18-8FAE-401E-B76C-6F11CC1F9843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5091CB18-8FAE-401E-B76C-6F11CC1F9843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5091CB18-8FAE-401E-B76C-6F11CC1F9843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5091CB18-8FAE-401E-B76C-6F11CC1F9843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5091CB18-8FAE-401E-B76C-6F11CC1F9843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81AA1574-13DE-4BA8-9CBF-80267F8271CA}
+	EndGlobalSection
+EndGlobal
