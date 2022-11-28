@@ -1,6 +1,5 @@
 ﻿using System;
 using _2223_Classwork_Three_layer_architecture.BLL;
-using _2223_Classwork_Three_layer_architecture.Models;
 
 namespace _2223_Classwork_Three_layer_architecture.PL
 {
@@ -8,19 +7,15 @@ namespace _2223_Classwork_Three_layer_architecture.PL
     {
         static void Main(string[] args)
         {
-            string _username;
-            string _password;
-
-            Account accountOne = new Account();
-            accountOne.Username = "admin";
-            accountOne.Password = "admin";
+            string username;
+            string password;
 
             Console.Write("Please enter your username: ");
-            _username = Console.ReadLine();
+            username = Console.ReadLine();
             Console.Write("Please enter your password: ");
-            _password = Console.ReadLine();
+            password = Console.ReadLine();
 
-            if(Authentication.VerifyLogin(accountOne, _username, _password))
+            if(Authentication.VerifyLogin(username, password))
             {
                 Console.WriteLine("Login successful");
             }
